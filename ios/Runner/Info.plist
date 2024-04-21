@@ -45,5 +45,8 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+    <string>We use the camera to scan barcodes and simplify the process of adding products.</string>
+
 </dict>
 </plist>

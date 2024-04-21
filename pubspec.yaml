@@ -10,22 +10,50 @@ environment:
   sdk: '>=3.2.6 <4.0.0'
 
 dependencies:
+
+ 
+
+
+
+
+
   flutter:
     sdk: flutter
+
+
+
+
+  flutter_bloc: ^8.1.5
+  auto_route: ^7.9.0
+  get_it: ^7.6.7
+  dio: ^5.4.2+1
+  equatable: ^2.0.5
+  weather: ^3.1.1
+  injectable: ^2.3.5
+  injectable_generator: ^2.4.2
+  
+  
+  
+  
   flutter_localizations:
     sdk: flutter
+  intl: ^0.18.1
+  flutter_svg: ^2.0.10+1
+  dartz: ^0.10.1
+  simple_barcode_scanner: ^0.1.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^2.0.0
+  build_runner: ^2.4.9
+  auto_route_generator: ^7.3.1
 
 flutter:
   uses-material-design: true
 
   # Enable generation of localized Strings from arb files.
-  generate: true
 
   assets:
     # Add assets from the images directory to the application.
